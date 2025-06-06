@@ -4,7 +4,7 @@ import os
 
 # DeepSeek API Key を環境変数から取得するか、直接ここに設定
 # 本番環境では環境変数からの取得を強く推奨します
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-228cb393b14b45b2a6ccb7553e74ecdf")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_API_KEY")
 
 # DeepSeek Chat API のエンドポイント
 # DeepSeekのドキュメントで最新のURLを確認してください
